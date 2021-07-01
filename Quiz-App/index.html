@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUIZ APP</title>
     <link href="style.css" rel="stylesheet" type="text/css">
-    <script src="script.js"></script>
+    
 </head>
 
 <body>
@@ -17,30 +17,32 @@
             <ul>
                 <li>
 
-                    <input type="radio" id="a" name="answer">
-                    <label id=a_text for="a">Question</label>
+                    <input type="radio" id="a" class="answer" name="answer">
+                    <label id="a_text" for="a">Question</label>
                 </li>
 
                 <li>
 
-                    <input type="radio" id="b" name="answer">
-                    <label id=b_text for="b">Question</label>
+                    <input type="radio" id="b" class="answer" name="answer">
+                    <label id="b_text" for="b">Question</label>
                 </li>
                 <li>
 
-                    <input type="radio" id="c" name="answer">
-                    <label id=c_text for="c">Question</label>
+                    <input type="radio" id="c" class="answer"name="answer">
+                    <label id="c_text"  for="c">Question</label>
                 </li>
                 <li>
 
-                    <input type="radio" id="d" name="answer">
-                    <label id=d_text for="d">Question</label>
+                    <input type="radio" id="d" class="answer" name="answer">
+                    <label id="d_text"  for="d">Question</label>
                 </li>
 
             </ul>
-            <button class="btn">submit</button>
+            <button class="btn" id="addBtn">submit</button>
+            <div id="showScore" class="scorearea"></div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

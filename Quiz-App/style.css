@@ -61,3 +61,30 @@ ul li label{
     background-color: #5e3370;;
     outline:none;
 }
+#showScore{
+background-color: #dfe6e9;
+margin-top:1rem;
+padding:1rem 2rem;
+box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+#showScore h3{
+    font-size: 1rem;
+    text-align:center;
+
+
+
+}
+#showScore .btn{
+margin-top: 1rem;
+background-color: #55efc4;
+color:#2d3436;
+}
+#showScore .btn:hover{
+    color:#fff;
+    background-color: #00b894;
+}
+
+
+.scorearea{
+    display:none;
+}
